@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grayscale</title>
+    <style>
+         body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      img {
+        height: 400px;
+        width: 600px;
+        border-radius: 20px;
+      }
+      h1 {
+        font-family:  Arial, sans-serif;
+        font-size: 50px;
+        text-decoration: underline;
+      }
+
+      img:hover {
+        filter: grayscale(1);
+        transition: 1s;
+      }
+    </style>
+</head>
+<body>
+    <h1>Hover the Image to Grayscale</h1>
+    <img src ="nat.jpg" alt="nature">
+</body>
+</html>
